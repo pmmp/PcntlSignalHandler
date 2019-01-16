@@ -1,7 +1,9 @@
 # PcntlSignalHandler
 PocketMine-MP plugin to allow stopping the server gracefully using CTRL+C
 
-## How do I use it?
+## Installing
+### Requirements
+The PHP binary you use for PocketMine-MP must include the `pcntl` extension.
 Drop it in your `plugins` directory and restart the server. No additional setup is necessary.
 
 ## Caveats
