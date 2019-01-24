@@ -1,9 +1,9 @@
 name: PcntlSignalHandler
-main: dktapps\PcntlSignalHandler\Main
+main: pmmp\PcntlSignalHandler\Main
 version: 0.1.0
 api: 4.0.0
 load: POSTWORLD
-author: dktapps
+author: PMMP Team
 description: Allows stopping the server gracefully using CTRL+C or other key combinations
 website: https://github.com/pmmp/PcntlSignalHandler
 extensions:

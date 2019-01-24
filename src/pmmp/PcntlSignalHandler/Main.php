@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace dktapps\PcntlSignalHandler;
+namespace pmmp\PcntlSignalHandler;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\scheduler\ClosureTask;
