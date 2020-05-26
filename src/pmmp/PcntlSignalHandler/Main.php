@@ -28,7 +28,7 @@ class Main extends PluginBase{
 				$this->getServer()->shutdown();
 			});
 		}
-		$this->getScheduler()->scheduleRepeatingTask(new ClosureTask(function(int $unused) : void{
+		$this->getScheduler()->scheduleRepeatingTask(new ClosureTask(static function() : void{
 			pcntl_signal_dispatch();
 		}), 5);
 	}
